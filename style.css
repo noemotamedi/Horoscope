@@ -1,0 +1,31 @@
+img{
+    height: 200px;
+    width: 200px;
+    margin-left:450px;
+}
+
+#startOverButton{
+    position: absolute;
+    top: 20px;
+    margin:auto;
+    margin-left:900px;
+    display:none;
+}
+
+#nameStuff{
+    margin-left:400px;
+    position:center;
+    width:500px;
+}
+
+#HoroscopeDescription{
+    margin-left:220px;
+    position:center;
+    width:700px;
+}
+
+#ChineseZodiacDescription{
+    margin-left:220px;
+    position:center;
+    width:700px;
+}

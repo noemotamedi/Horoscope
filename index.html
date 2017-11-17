@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horoscope</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+
+
+
+<input type="text" id="name" value="Name" size="25">
+
+
+
+<body onload="setUpPage()">
+
+
+
+
+
+
+<select id="Months" onchange="firstFunction(this.value)">
+    <option value="1">January</option>
+    <option value=2>February</option>
+    <option value=3>March</option>
+    <option value=4>April</option>
+    <option value=5>May</option>
+    <option value=6>June</option>
+    <option value=7>July</option>
+    <option value=8>August</option>
+    <option value=9>September</option>
+    <option value=10>October</option>
+    <option value=11>November</option>
+    <option value=12>December</option>
+</select>
+
+
+
+
+<!--<button onclick='chooseYear()' id="confirmButton">Confirm!</button>-->
+<!--<button onclick='firstFunction()' id="backMonth">Back!</button>-->
+<!--<button onclick="hideDates()">HIDE!</button>-->
+
+
+<select id='Dates'></select>​
+
+
+
+<input type="number" id="birthYear" value="2017"  onChange="leapYear()" value="" size="25">
+
+
+
+
+
+
+
+<!--The image-->
+<div id="image">
+</div>
+
+
+<!--Start Over and Confirm Button-->
+<button id='startOverButton' onClick='setUpPage()'>Start Over!</button>
+<button id='Confirm' onClick='HoroscopeReading()'>Continue!</button>
+
+<!--The customized message-->
+<div id="nameStuff">
+</div>
+
+<!--The horoscope description-->
+<div id="HoroscopeDescription">
+</div>
+
+<!--The zodiac description-->
+<div id="ChineseZodiacDescription">
+</div>
+
+
+
+</body>
+</body>
+</html>
